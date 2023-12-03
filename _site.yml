@@ -1,0 +1,24 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "Introduction"
+      href: Introduction.html
+    - text: "Data"
+      href: Data.html
+    - text: "Analysis"
+      menu:
+      - text: "Exploratory Analysis"
+        href: EDA.html
+      - text: "Statistical Analysis"
+        href: EDA.html
+    - text: "Regression"
+      href: Regression.html
+    - icon: fa-envelope fa-lg
+      href: 
+    - icon: fa-github fa-lg
+      href: https://github.com/MiaYum/Alzheimers_Disease_New_Hope
+output:
+  html_document:
+    theme: cosmo
